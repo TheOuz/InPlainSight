@@ -1,0 +1,9 @@
+#Created by TheOuz 30/05/2020
+
+Began researching this idea on the 29/05/2020, the ability to be able to hide an application on a victims phone and then to connect to a framework which connected refuge, social care, police and suicide hotlines.
+
+To install a hook onto the native phone app would require root access to the phone.
+
+Discovered app GHOST on kali linux. Once the exploited APK is installed onto the phone in question, a shell can be opened remotely exploiting the android debug bridge. https://github.com/entynetproject/ghost
+
+Very hard to develop this solution with root privilages. Possible solution relating to using a two faced application with a verification server e.g. go to website, put in password and it changes the functionality of the application.
